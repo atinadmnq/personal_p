@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        * {
+        margin: 0%;
+        padding: 0%;
+        background: #aba6a1;
+        }
+
+        /*navigation*/
+        .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;  
+        }
+
+        .logo {
+        width: 100px;
+        height: 100px;
+        }
+
+        .navbar a {
+        position: relative;
+        font-size: 18px;
+        color: #2f2e2c;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 50px;
+        font-family: Candara;
+        }
+
+        .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        }
+
+        .side {
+            display: flex;
+            justify-content: space-around;
+            font-family: Candara;
+            margin-top: 10%;
+        }
+
+        .pic {
+            width: 210px;
+            height: 300px; 
+        }
+
+        .school{
+            display: flex;
+            flex-direction: column;
+            margin-left: -12%;
+            margin-top: 5%;
+        }
+
+        .shs {
+            padding-top: 5%;
+        }
+
+        .col {
+            padding-top: 2%;
+        }
+
+        .cap-a {
+            display: flex;
+            font-family: Candara;
+            flex-direction: column;
+            margin-left: 17%;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="ad logo2.png" class="logo"></a>
+        
+        <nav class="navbar">
+            <a href="index.html"><img src="icons8-home-32.png"></a>
+        </nav>
+    </header>
+
+    <div class="side">
+        <img src="atina2.JPG" alt="atina2" class="pic">
+        <div class="school">
+        <h2 class="eback">Education Background</h2>
+        <p class="shs"><b>UNIVERSITY OF SAINT LOUIS TUGUEGARAO</b></p>
+        <p>Science, Technology, Engineering, and Mathematics</p>
+        <p>2019-2021</p>
+        <p class="col"><b>UNIVERSITY OF THE CORDILLERAS</b></p>
+        <p>Bachelor of Science in Information Technology </p>
+        <p>2022-present</p>
+    </div> 
+    </div>
+
+    <div class="cap-a">
+        <figcaption style="width:210px"><u>Atheena Dominique F. Calayan</u></figcaption>
+        <figcaption style="width: 210px">Back-end Developer</figcaption>
+    </div>
+</body>
+</html>

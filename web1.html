@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+
+        * {
+        margin: 0%;
+        padding: 0%;
+        background: #aba6a1;
+        }
+
+        /*navigation*/
+        .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;  
+        }
+
+        .logo {
+        width: 100px;
+        height: 100px;
+        }
+
+        .navbar a {
+        position: relative;
+        font-size: 18px;
+        color: #2f2e2c;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 50px;
+        font-family: Candara;
+        }
+
+        .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        }
+
+        /*content*/
+        .proj1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .proj1 img {
+            width: 700px;
+            height: 334px;
+            margin-top: 5%;
+            margin-left: 3%;
+            transition: transform .2s;
+            border-radius: 2px;
+             
+        }
+
+        .proj1 img:hover {
+            transform: scale(1.1);
+        }
+
+        .cap1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+            margin-top: 1%;
+            text-align: center;
+            color: #e7e3e2;
+        }
+
+        .cap1 figcaption {
+            font-family:Trebuchet MS;
+            font-size: 20px;
+        }
+
+        h1 {
+            display: inline-block;
+            margin-top: 10%;
+            margin-left: 3%;
+            color: #2f2e2c;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 5px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="ad logo2.png" class="logo"></a>
+        
+        <nav class="navbar">
+            <a href="index.html"><img src="icons8-home-32.png"></a>
+        </nav>
+    </header>
+
+    <h1>PROJECTS</h1>
+    <div class="proj1">
+        <a href="https://atinadmnq.github.io/recipes/"><img src="proj1.png"></a>
+    </div>
+
+    <div class="cap1">
+        <figcaption style="width:700px"><u>Filipino Recipes Webpage</u></figcaption>
+    </div>
+</body>
+</html>
